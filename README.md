@@ -12,3 +12,8 @@ Otworzy się folder "Uruchamianie", który jest folderem docelowym dla skryptów
 Skopiuj plik skryptu .py ("cleanup.py") do tego folderu.
 
 Po ponownym uruchomieniu systemu skrypt zostanie automatycznie uruchomiony i wyczyści pliki z pulpitu i kosza.
+
+#AUTOSTART
+
+@echo off
+powershell.exe -ExecutionPolicy Bypass -File "ścieżka_do_skryptu\czyszczenie_pulpitow.ps1"
